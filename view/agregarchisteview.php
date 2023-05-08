@@ -84,11 +84,14 @@ https://templatemo.com/tm-569-edu-meeting
         <div class="col-lg-12">
           
             <div class="item">
-              <div class="form-group">
-                <label for="exampleFormControlTextarea1">Escribe tu chiste ingenioso aquí y se guardará en chistes de usuarios</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="height: 100px;"></textarea>
-                <button type="button" class="btn btn-primary btn-lg" style="margin-top: 10px; padding: 15px 30px;">Agregar chiste</button>
-              </div>
+            <form action="procesar_chiste.php" method="POST">
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Escribe tu chiste ingenioso aquí y se guardará en chistes de usuarios</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" name="chiste" rows="3" style="height: 100px;"></textarea>
+    <button type="submit" class="btn btn-primary btn-lg" style="margin-top: 10px; padding: 15px 30px;">Agregar chiste</button>
+  </div>
+</form>
+
      
             </div>
             
