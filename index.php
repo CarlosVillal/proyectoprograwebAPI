@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login Page</title>
+	<title>Pagina de Acceso</title>
    <!--Made with love by Mutiullah Samim -->
    
 	<!--Bootsrap 4 CDN-->
@@ -16,14 +16,15 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
 	<!--Custom styles-->
-	<link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="view/assets/css/estilos.css">
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
 <div class="container">
 	<div class="d-flex justify-content-center h-100">
 		<div class="card">
 			<div class="card-header">
-				<h3>Sign In</h3>
+				<h3>Iniciar sesión</h3>
 				<div class="d-flex justify-content-end social_icon">
 					<span><i class="fab fa-facebook-square"></i></span>
 					<span><i class="fab fa-google-plus-square"></i></span>
@@ -31,38 +32,48 @@
 				</div>
 			</div>
 			<div class="card-body">
-				<form>
+				<form method="POST" action="business/loginaction.php">
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-user"></i></span>
 						</div>
-						<input type="text" class="form-control" placeholder="username">
+						<input type="text" name="usuario" id="usuario" class="form-control" placeholder="Nombre de usuario">
 						
 					</div>
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-key"></i></span>
 						</div>
-						<input type="password" class="form-control" placeholder="password">
-					</div>
-					<div class="row align-items-center remember">
-						<input type="checkbox">Remember Me
+						<input type="password" name="password" id="password"  class="form-control" placeholder="Contraseña">
 					</div>
 					<div class="form-group">
-						<input type="submit" value="Login" class="btn float-right login_btn">
+						<input type="submit" name="verificarlogin" id="verificarlogin" value="Ingresar" class="btn float-right login_btn">
 					</div>
 				</form>
 			</div>
 			<div class="card-footer">
 				<div class="d-flex justify-content-center links">
-					Don't have an account?<a href="#">Sign Up</a>
+				¿No tienes una cuenta?<a href="#">Registrarse</a>
 				</div>
 				<div class="d-flex justify-content-center">
-					<a href="#">Forgot your password?</a>
+					<a href="#">¿Olvidaste tu contraseña?</a>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+<?php
+if(isset($_GET['error']) && $_GET['error'] == "bderror"){
+	?><script>
+	Swal.fire({
+		icon: 'error',
+		title: 'Acceso inválido',
+		text: 'Usuario o contraseña incorrecta!'
+	  })
+	</script><?php
+}
+
+
+?>
 </body>
 </html>
