@@ -17,11 +17,9 @@ include 'usuariobusiness.php';
 	$resultado = $userBusiness->insertarUsuario($usuario);
 
 	if($resultado == 1){
-        echo 'inserto correctamente correcta';
-		//header("location: ../view/choferview.php?mensaje=1" );
+		header("location: ../view/viewregistrouser.php?mensaje=1" );
 	}else{
-        echo "error";
-        // header("location: ../view/viewregistrouser.php?error=bderror" );
+         header("location: ../view/viewregistrouser.php?mensaje=2" );
 		}
 
 
