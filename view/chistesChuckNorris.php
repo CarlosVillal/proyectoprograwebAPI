@@ -85,7 +85,7 @@ https://templatemo.com/tm-569-edu-meeting
             <div class="item">
   <div class="form-group">
     <label for="exampleFormControlTextarea1">Observa diferentes chistes de Chuck Norris</label>
-    <textarea class="form-control" id="datoInecesario" name="datoInecesario" rows="3" style="height: 100px;"></textarea>
+    <textarea class="form-control" id="chisteChuckNorris" name="chisteChuckNorris" rows="3" style="height: 100px;"></textarea>
     <button type="submit" name="insertar" id="insertar" class="btn btn-primary btn-lg" style="margin-top: 10px; padding: 15px 30px;">Mostrar otro dato</button>
   </div>
 </form>
