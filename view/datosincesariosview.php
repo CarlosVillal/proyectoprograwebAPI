@@ -86,7 +86,7 @@ https://templatemo.com/tm-569-edu-meeting
   <div class="form-group">
     <label for="exampleFormControlTextarea1">Observa diferentes datos incesarios</label>
     <textarea class="form-control" id="datoInecesario" name="datoInecesario" rows="3" style="height: 100px;"></textarea>
-    <button type="submit" name="insertar" id="insertar" class="btn btn-primary btn-lg" style="margin-top: 10px; padding: 15px 30px;">Mostrar otro dato</button>
+    <button type="submit" name="insertar" id="insertar" class="btn btn-primary btn-lg" style="margin-top: 10px; padding: 15px 30px;" onclick="location.reload()">Mostrar otro dato</button>
   </div>
 </form>
      
@@ -125,6 +125,7 @@ https://templatemo.com/tm-569-edu-meeting
     <script src="assets/js/video.js"></script>
     <script src="assets/js/slick-slider.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="assets/js/apiDatosRandom.js"></script>
     <script>
         //according to loftblog tut
         $('.nav li:first').addClass('active');
