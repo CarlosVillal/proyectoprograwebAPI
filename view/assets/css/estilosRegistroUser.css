@@ -8,3 +8,11 @@
     font-size: 35px;
     color: #36A0FF;
 }
+
+body {
+    background-image: url("../assets/images/bat.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  
