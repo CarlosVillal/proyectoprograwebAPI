@@ -77,15 +77,18 @@ https://templatemo.com/tm-569-edu-meeting
       </div>
   </section>
   <!-- ***** Main Banner Area End ***** -->
-
   <section class="services">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           
             <div class="item">
-
-
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Observa diferentes datos incesarios</label>
+    <textarea class="form-control" id="datoInecesario" name="datoInecesario" rows="3" style="height: 100px;"></textarea>
+    <button type="submit" name="insertar" id="insertar" class="btn btn-primary btn-lg" style="margin-top: 10px; padding: 15px 30px;">Mostrar otro dato</button>
+  </div>
+</form>
      
             </div>
             

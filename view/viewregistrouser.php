@@ -23,20 +23,42 @@
 include 'header.php'
 ?>
 
+<style>
+.container.text-center {
+  background-image: url('ruta/de/la/imagen.gif');
+  background-size: cover;
+}
+
+legend.text-xs-center {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+</style>
 
 
 <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 -->
 <div class="container">
     <div class="row">
+        
         <div class="col-md-12">
             <div class="well well-sm">
             <div >
                 <form method="post" action="../business/usuarioaction.php">
                     <fieldset>
-                        <div class="container text-center">
-                        <legend class="text-xs-center header p-3 mb-2 bg-primary text-white">Datos del Usuario</legend>
-                        </div>
+                    <style>
+        body {
+            background-image: url("assets/images/bat.gif");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+                      <div class="container text-center">
+  <legend class="text-xs-center header p-3 mb-2 bg-primary text-white">Datos del Usuario</legend>
+  <!-- resto del formulario -->
+</div>
                         <!-- CEDULA -->
                         <div class="form-group container text-center">
                             <span class="col-md-1 offset-md-2 text-xs-center"><i class="fa fa-user bigicon"></i></span>
