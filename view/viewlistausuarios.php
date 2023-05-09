@@ -64,6 +64,8 @@ include 'header.php'
 ?>							
 </tbody>
 </table>
+
+<br><br>
 <br><br><br>
 <!-- FOOTER -->
 <?php

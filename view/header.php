@@ -8,16 +8,16 @@
     <!-- <a class="navbar-brand" href="#">Opciones</a> -->
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="menuview.php">Inicio<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="../view/viewlistausuarios.php">Usuarios<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Chistes<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="chistesChuckNorris.php">Chistes Chuck Norris<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Datos aleatorios<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="datosincesariosview.php">Datos incesarios<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="../index.php">Salir<span class="sr-only">(current)</span></a>

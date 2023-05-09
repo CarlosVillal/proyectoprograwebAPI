@@ -37,14 +37,14 @@ https://templatemo.com/tm-569-edu-meeting
               <div class="col-12">
                   <nav class="main-nav">
                       <!-- ***** Logo Start ***** -->
-                      <a href="index.html" class="logo">
+                      <a href="#" class="logo">
                           Menú
                       </a>
                       <!-- ***** Logo End ***** -->
                       <!-- ***** Menu Start ***** -->
                       <ul class="nav">
                           <li><a href="viewregistrouser.php">Registrar Nuevo usuario</a></li>
-                          <li><a href="Index.php">Cerrar seción</a></li>
+                          <li><a href="../index.php">Cerrar seción</a></li>
                       </ul>        
                       <a class='menu-trigger'>
                           <span>Menu</span>
@@ -89,7 +89,7 @@ https://templatemo.com/tm-569-edu-meeting
                 <img class="alicons" src="assets/images/chucx.svg" alt="">
               </div>
               <div class="down-content">
-              <h4><a href="chistes-chuck-norris.html">Chistes sobre Chuck Norris</a></h4>
+              <h4><a href="chistesChuckNorris.php">Chistes sobre Chuck Norris</a></h4>
                 <p>Es posible que algunas de las historias que escuches aquí sean verdaderas, pero probablemente ninguna de ellas se pueda verificar. De todos modos, ¡prepárate para reír y maravillarte ante las hazañas de este héroe mítico!</p>
               </div>
             </div>
@@ -109,7 +109,7 @@ https://templatemo.com/tm-569-edu-meeting
                 <img id="alicons" src="assets/images/lista.svg" alt="">
               </div>
               <div class="down-content">
-              <h4><a href="chistes-chuck-norris.html">Chistes de usuarios</a></h4>
+              <h4><a href="listachisteview.php">Chistes de usuarios</a></h4>
                 <p>Bienvenidos a la sección de chistes de usuarios, donde los ingeniosos y ocurrentes de la comunidad comparten sus mejores chistes para hacernos reír, prepárate para disfrutar de los chistes más divertidos de la comunidad.</p>
               </div>
             </div>
@@ -204,6 +204,8 @@ https://templatemo.com/tm-569-edu-meeting
         });
     </script>
 </body>
+
+
 
 </body>
 </html>
