@@ -37,14 +37,14 @@ https://templatemo.com/tm-569-edu-meeting
               <div class="col-12">
                   <nav class="main-nav">
                       <!-- ***** Logo Start ***** -->
-                      <a href="index.html" class="logo">
+                      <a href="#" class="logo">
                           Área de datos random
                       </a>
                       <!-- ***** Logo End ***** -->
                       <!-- ***** Menu Start ***** -->
                       <ul class="nav">
-                          <li><a href="meetings.html">Volver al menú principal</a></li>
-                          <li><a href="Index.php">Cerrar seción</a></li>
+                          <li><a href="menuview.php">Volver al menú principal</a></li>
+                          <li><a href="../index.php">Cerrar seción</a></li>
                       </ul>        
                       <a class='menu-trigger'>
                           <span>Menu</span>
