@@ -2,28 +2,24 @@
 
 include '../data/chistedata.php';
 
-class ChisteBusiness{
+class AgregarchisteBusiness{
 
-	private $usuarioData;
+	private $chisteData;
 
-	public function UsuarioBusiness(){
-		$this->usuarioData = new UsuarioData();
+	public function AgregarchisteBusiness(){
+		$this->chisteData = new chisteData();
 	}
 
-	public function insertarUsuario($usuario){
-        return $this->usuarioData->insertarUsuario($usuario);
-    }
-
-	public function actualizarUsuario($usuario){
-        return $this->usuarioData->actualizarUsuario($usuario);
+	public function insertarChiste($chiste){
+        return $this->chisteData->insertarChiste($chiste);
     }
 
 	public function eliminarUsuario($id){
-        return $this->usuarioData->eliminarUsuario($id);
+        return $this->chisteData->eliminarUsuario($id);
     }
 
-	public function obtenerUsuarios(){
-        return $this->usuarioData->obtenerUsuarios();
+	public function obtenerChistes(){
+        return $this->chisteData->obtenerChistes();
     }
 
 

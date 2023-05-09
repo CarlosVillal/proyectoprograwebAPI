@@ -38,7 +38,7 @@ https://templatemo.com/tm-569-edu-meeting
                   <nav class="main-nav">
                       <!-- ***** Logo Start ***** -->
                       <a href="index.html" class="logo">
-                          Área de chistes
+                          Área de chistes sobre Chuck Norris
                       </a>
                       <!-- ***** Logo End ***** -->
                       <!-- ***** Menu Start ***** -->
@@ -59,7 +59,7 @@ https://templatemo.com/tm-569-edu-meeting
 
   <!-- ***** Main Banner Area Start ***** -->
   <section class="section main-banner" id="top" data-section="section1">
-    <img src="assets/images/aaa.gif" alt="Chuck GIF" width="500" height="500" />
+    <img src="assets/images/saludo.gif" alt="Chuck GIF" width="500" height="500" />
 
 
       <div class="video-overlay header-text">
@@ -67,7 +67,7 @@ https://templatemo.com/tm-569-edu-meeting
             <div class="row">
               <div class="col-lg-12">
                 <div class="caption">
-              <h6>"¡Agrega un chiste pero que sea bueno!"</h6>
+              <h6>"Observa los chistes más entrenidos sobre la leyenda Chuck Norris!"</h6>
            
           
           </div>
@@ -84,13 +84,7 @@ https://templatemo.com/tm-569-edu-meeting
         <div class="col-lg-12">
           
             <div class="item">
-            <form action="../business/agregarchisteaction.php" method="POST">
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Escribe tu chiste ingenioso aquí y se guardará en chistes de usuarios</label>
-    <textarea class="form-control" id="chistetexto" name="chistetexto" rows="3" style="height: 100px;"></textarea>
-    <button type="submit" name="insertar" id="insertar" class="btn btn-primary btn-lg" style="margin-top: 10px; padding: 15px 30px;">Agregar chiste</button>
-  </div>
-</form>
+
 
      
             </div>

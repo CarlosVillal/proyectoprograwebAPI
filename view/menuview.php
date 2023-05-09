@@ -43,7 +43,7 @@ https://templatemo.com/tm-569-edu-meeting
                       <!-- ***** Logo End ***** -->
                       <!-- ***** Menu Start ***** -->
                       <ul class="nav">
-                          <li><a href="meetings.html">Registrar Nuevo usuario</a></li>
+                          <li><a href="viewregistrouser.php">Registrar Nuevo usuario</a></li>
                           <li><a href="Index.php">Cerrar seción</a></li>
                       </ul>        
                       <a class='menu-trigger'>
@@ -99,7 +99,7 @@ https://templatemo.com/tm-569-edu-meeting
                 <img class="alicons" src="assets/images/sonrisa.svg" alt="">
               </div>
               <div class="down-content">
-              <h4><a href="chistes-chuck-norris.html">Datos totalmente incesarios</a></h4>
+              <h4><a href="datosincesariosview.php">Datos totalmente incesarios</a></h4>
                 <p>Bienvenidos a esta sección llena de información que nunca supiste que necesitabas, y probablemente nunca necesitarás.¡Así que siéntete libre de aprender cosas que nunca hubieras imaginado que podrían ser importantes</p>
               </div>
             </div>
@@ -118,7 +118,7 @@ https://templatemo.com/tm-569-edu-meeting
                 <img id="alicons" src="assets/images/chat.svg" alt="">
               </div>
               <div class="down-content">
-              <h4><a href="chistes-chuck-norris.html">Agregar un chiste</a></h4>
+              <h4><a href="agregarchisteview.php">Agregar un chiste</a></h4>
                 <p>¿Tienes un chiste que crees que es tan bueno que debería ser compartido con todo el mundo? Bienvenido a la sección de "Agregar un chiste", donde puedes compartir tus mejores bromas con nuestra comunidad.</p>
               </div>
             </div>

@@ -4,8 +4,6 @@ class Chiste{
 	private $chisteid;
 	private $chistetexto;
 	
-    
-
 	public function __construct($chisteid, $chistetexto){
 		$this->chisteid = $chisteid;
 		$this->chistetexto = $chistetexto;
