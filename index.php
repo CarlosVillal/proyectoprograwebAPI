@@ -61,7 +61,6 @@ if(isset($_GET['error']) && $_GET['error'] == "bderror"){
 	</script><?php
 }
 
-
 ?>
 </body>
 </html>
