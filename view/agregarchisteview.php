@@ -13,7 +13,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="assets/css/fontawesome.css">
@@ -132,4 +132,28 @@ https://templatemo.com/tm-569-edu-meeting
 </body>
 
 </body>
+
+<?php
+
+if(isset($_GET['mensaje']) && $_GET['mensaje'] == "1"){
+    ?><script>
+	Swal.fire({
+		icon: 'success',
+		title: 'ÉXITO',
+		text: 'Se registró su chiste con éxito!'
+	  })
+	</script><?php
+	
+}else if(isset($_GET['mensaje']) && $_GET['mensaje'] == "2"){
+    ?><script>
+	Swal.fire({
+		icon: 'error',
+		title: 'Ocurrio un error',
+		text: 'No se pudo registra el usuario!'
+	  })
+	</script><?php
+}
+
+?>
+
 </html>

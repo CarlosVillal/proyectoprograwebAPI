@@ -36,7 +36,7 @@ include 'header.php'
 <br><br>
 <table id="tbusuario" class="table table-striped">
 			<tr>
-            <th>Chiste</th>
+            <th>Chistes</th>
 			</tr>
 		<tbody>
 			<?php 
