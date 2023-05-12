@@ -160,7 +160,5 @@ https://templatemo.com/tm-569-edu-meeting
     <script src="../view/assets/js/funcionplantilla.js"></script>
 </body>
 
-
-
 </body>
 </html>
