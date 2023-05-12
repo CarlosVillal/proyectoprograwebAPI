@@ -140,7 +140,7 @@ if(isset($_GET['mensaje']) && $_GET['mensaje'] == "1"){
 	Swal.fire({
 		icon: 'success',
 		title: 'ÉXITO',
-		text: 'Se registró su chiste con éxito!'
+		text: 'Su chiste se registró con éxito!'
 	  })
 	</script><?php
 	
@@ -149,7 +149,7 @@ if(isset($_GET['mensaje']) && $_GET['mensaje'] == "1"){
 	Swal.fire({
 		icon: 'error',
 		title: 'Ocurrio un error',
-		text: 'No se pudo registra el usuario!'
+		text: 'No se pudo registra el chiste!'
 	  })
 	</script><?php
 }
